@@ -1,5 +1,9 @@
 /* Brackets CCS getting started template used and modifyed for syle sheet */
 
+html, body{
+    height: 108%;
+}
+
 html {
     background: #e6e9e9;
     background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
@@ -10,11 +14,11 @@ body {
     background: #fff;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #545454;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', serif;
     font-size: 16px;
     line-height: 1.5;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 740px;
     padding: 2em 2em 4em;
 }
 
@@ -155,7 +159,7 @@ a.button {
 }
 
 #footer {
-    position: absolute;
+    position: bottom;
     text-align: center;
     padding: 3px;
     color: black;
@@ -165,22 +169,7 @@ a.button {
     /* Footer height */
 }
 
-/* JAVA SCRIPT CSS */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html, body{
-    height: 100%;
-}
-
-
-body{
-    font-family: 'Montserrat', serif;
-
-}
+/* JCONTACT FORM CSS */
 
  /* Style inputs with type="text", select elements and textareas */
  input[type=text], select, textarea {
