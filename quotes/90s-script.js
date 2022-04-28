@@ -2,230 +2,94 @@
  //you can change the questions to your own taste or even add more questions..
  const questions = [
     {
-        question: "How many days makes a week ?",
-        optionA: "10 days",
-        optionB: "14 days",
-        optionC: "5 days",
-        optionD: "7 days",
+        question: "These are not spirit fingers. These are spirit fingers. And these are gold.",
+        optionA: "Sugar & Spice",
+        optionB: "Fired Up!",
+        optionC: "But I'm a Cheerleader",
+        optionD: "Bring It On",
         correctOption: "optionD"
     },
 
     {
-        question: "How many players are allowed on a soccer pitch ?",
-        optionA: "10 players",
-        optionB: "11 players",
-        optionC: "9 players",
-        optionD: "12 players",
+        question: "Wilson!... I’m sorry, Wilson!",
+        optionA: "Rescue Dawn",
+        optionB: "Cast Away",
+        optionC: "Apollo 13",
+        optionD: "The Beach",
         correctOption: "optionB"
     },
 
     {
-        question: "Who was the first President of USA ?",
-        optionA: "Donald Trump",
-        optionB: "Barack Obama",
-        optionC: "Abraham Lincoln",
-        optionD: "George Washington",
+        question: "What we do in life echoes in eternity.",
+        optionA: "Spartacas",
+        optionB: "The Last Legion",
+        optionC: "300",
+        optionD: "Gladiator",
         correctOption: "optionD"
     },
 
     {
-        question: "30 days has ______ ?",
-        optionA: "January",
-        optionB: "December",
-        optionC: "June",
-        optionD: "August",
+        question: "Fish are friends, not food.",
+        optionA: "The Reef",
+        optionB: "Help! I'm a fish",
+        optionC: "Finding Nemo",
+        optionD: "Shark Tale",
         correctOption: "optionC"
     },
 
     {
-        question: "How manay hours can be found in a day ?",
-        optionA: "30 hours",
-        optionB: "38 hours",
-        optionC: "48 hours",
-        optionD: "24 hours",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Which is the longest river in the world ?",
-        optionA: "River Nile",
-        optionB: "Long River",
-        optionC: "River Niger",
-        optionD: "Lake Chad",
+        question: "I don't know how to put this, but I'm kind of a big deal...People know me... I'm very important. Uh, I have many leather-bound books and my apartment smells of rich mahogany",
+        optionA: "Anchorman: The Legend of Ron Burgundy",
+        optionB: "Talladega Nights: The Ballad of Ricky Bobby",
+        optionC: "Step Brothers",
+        optionD: "Blades of Glory",
         correctOption: "optionA"
     },
 
     {
-        question: "_____ is the hottest Continent on Earth ?",
-        optionA: "Oceania",
-        optionB: "Antarctica",
-        optionC: "Africa",
-        optionD: "North America",
+        question: "Bye, [redacted character name]. I love you. Meet me in Montauk.",
+        optionA: "Eternal Sunshine of the spotless Mind",
+        optionB: "Lost In Translation",
+        optionC: "500 Days of Summer",
+        optionD: "Requiem of a Dream",
+        correctOption: "optionA"
+    },
+
+    {
+        question: "Is butter a carb?",
+        optionA: "Confessions of a Teenage Dream Queen",
+        optionB: "Easy A",
+        optionC: "Mean Girls",
+        optionD: "Freaky Friday",
         correctOption: "optionC"
     },
 
     {
-        question: "Which country is the largest in the world ?",
-        optionA: "Russia",
-        optionB: "Canada",
-        optionC: "Africa",
-        optionD: "Egypt",
+        question: "A liger...it's pretty much my favourite animal. It's like a lion and a tiger mixed - bred for its skills in magic.",
+        optionA: "Napoleon Dynamite",
+        optionB: "Superbad",
+        optionC: "The Big Lebowski",
+        optionD: "The 40-year-old Virgin",
         correctOption: "optionA"
     },
 
     {
-        question: "Which of these numbers is an odd number ?",
+        question: "Why is the rum always gone ?",
         optionA: "Ten",
-        optionB: "Twelve",
-        optionC: "Eight",
-        optionD: "Eleven",
+        optionB: "PotC: At World's End",
+        optionC: "PotC: Curse of the Black Pearl",
+        optionD: "PotC: Dead Man’s Chest",
         correctOption: "optionD"
     },
 
     {
-        question: `"You Can't see me" is a popular saying by`,
-        optionA: "Eminem",
-        optionB: "Bill Gates",
-        optionC: "Chris Brown",
-        optionD: "John Cena",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Where is the world tallest building located ?",
-        optionA: "Africa",
-        optionB: "California",
-        optionC: "Dubai",
-        optionD: "Italy",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "The longest river in the United Kingdom is ?",
-        optionA: "River Severn",
-        optionB: "River Mersey",
-        optionC: "River Trent",
-        optionD: "River Tweed",
+        question: `"I'll treat this lunch like a last supper, feign interest in his nostalgictales, and get out.`,
+        optionA: "Snatch",
+        optionB: "The Business",
+        optionC: "Layer Cake",
+        optionD: "RocknRolla",
         correctOption: "optionA"
     },
-
-
-    {
-        question: "How many permanent teeth does a dog have ?",
-        optionA: "38",
-        optionB: "42",
-        optionC: "40",
-        optionD: "36",
-        correctOption: "optionB"
-    },
-
-    {
-        question: "Which national team won the football World cup in 2018 ?",
-        optionA: "England",
-        optionB: "Brazil",
-        optionC: "Germany",
-        optionD: "France",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Which US state was Donald Trump Born ?",
-        optionA: "New York",
-        optionB: "California",
-        optionC: "New Jersey",
-        optionD: "Los Angeles",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "How man states does Nigeria have ?",
-        optionA: "24",
-        optionB: "30",
-        optionC: "36",
-        optionD: "37",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "____ is the capital of Nigeria ?",
-        optionA: "Abuja",
-        optionB: "Lagos",
-        optionC: "Calabar",
-        optionD: "Kano",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "Los Angeles is also known as ?",
-        optionA: "Angels City",
-        optionB: "Shining city",
-        optionC: "City of Angels",
-        optionD: "Lost Angels",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "What is the capital of Germany ?",
-        optionA: "Georgia",
-        optionB: "Missouri",
-        optionC: "Oklahoma",
-        optionD: "Berlin",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "How many sides does an hexagon have ?",
-        optionA: "Six",
-        optionB: "Sevene",
-        optionC: "Four",
-        optionD: "Five",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "How many planets are currently in the solar system ?",
-        optionA: "Eleven",
-        optionB: "Seven",
-        optionC: "Nine",
-        optionD: "Eight",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Which Planet is the hottest ?",
-        optionA: "Jupitar",
-        optionB: "Mercury",
-        optionC: "Earth",
-        optionD: "Venus",
-        correctOption: "optionB"
-    },
-
-    {
-        question: "where is the smallest bone in human body located?",
-        optionA: "Toes",
-        optionB: "Ears",
-        optionC: "Fingers",
-        optionD: "Nose",
-        correctOption: "optionB"
-    },
-
-    {
-        question: "How many hearts does an Octopus have ?",
-        optionA: "One",
-        optionB: "Two",
-        optionC: "Three",
-        optionD: "Four",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "How many teeth does an adult human have ?",
-        optionA: "28",
-        optionB: "30",
-        optionC: "32",
-        optionD: "36",
-        correctOption: "optionC"
-    }
 
 ]
 
