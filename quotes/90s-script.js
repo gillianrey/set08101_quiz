@@ -2,92 +2,92 @@
  //you can change the questions to your own taste or even add more questions..
  const questions = [
     {
-        question: "These are not spirit fingers. These are spirit fingers. And these are gold.",
-        optionA: "Sugar & Spice",
-        optionB: "Fired Up!",
-        optionC: "But I'm a Cheerleader",
-        optionD: "Bring It On",
-        correctOption: "optionD"
+        question: `"As far back as I can remember, I always wanted to be a gangster...To me being a gangster was better than being president of the United States."`,
+        optionA: "GoodFellas",
+        optionB: "The Godfather: Part One",
+        optionC: "Donnie Brasco",
+        optionD: "The Usual Suspects",
+        correctOption: "optionA"
     },
 
     {
-        question: "Wilson!... I’m sorry, Wilson!",
-        optionA: "Rescue Dawn",
-        optionB: "Cast Away",
-        optionC: "Apollo 13",
-        optionD: "The Beach",
+        question: `"A census taker once tried to test me. I ate his liver with some fava beans and a nice Chianti."`,
+        optionA: "Buffy the Vampire Slayer",
+        optionB: "The Silence of the Lambs",
+        optionC: "It",
+        optionD: "Misery",
         correctOption: "optionB"
     },
 
     {
-        question: "What we do in life echoes in eternity.",
-        optionA: "Spartacas",
-        optionB: "The Last Legion",
-        optionC: "300",
-        optionD: "Gladiator",
+        question: `"Here are your names: Mr. Brown, Mr. White, Mr. Blonde, Mr. Blue, Mr. Orange, and Mr. Pink."`,
+        optionA: "From Dusk Till Dawn",
+        optionB: "Natural Born Killers",
+        optionC: "Pulp Fiction",
+        optionD: "Reservior Dogs",
         correctOption: "optionD"
     },
 
     {
-        question: "Fish are friends, not food.",
-        optionA: "The Reef",
-        optionB: "Help! I'm a fish",
-        optionC: "Finding Nemo",
-        optionD: "Shark Tale",
+        question: `"My Mama always said, 'Life was like a box of chocolates; you never know what you're gonna get."`,
+        optionA: "Philadelphia",
+        optionB: "Saving Private Ryan",
+        optionC: "Forrest Gump",
+        optionD: "Sleepless in Seattle",
         correctOption: "optionC"
     },
 
     {
-        question: "I don't know how to put this, but I'm kind of a big deal...People know me... I'm very important. Uh, I have many leather-bound books and my apartment smells of rich mahogany",
-        optionA: "Anchorman: The Legend of Ron Burgundy",
-        optionB: "Talladega Nights: The Ballad of Ricky Bobby",
-        optionC: "Step Brothers",
-        optionD: "Blades of Glory",
+        question: `"I was surfing the crimson wave. I had to haul ass to the ladies."`,
+        optionA: "Clueless",
+        optionB: "Jawbreaker",
+        optionC: "Scream",
+        optionD: "She's All That",
         correctOption: "optionA"
     },
 
     {
-        question: "Bye, [redacted character name]. I love you. Meet me in Montauk.",
-        optionA: "Eternal Sunshine of the spotless Mind",
-        optionB: "Lost In Translation",
-        optionC: "500 Days of Summer",
-        optionD: "Requiem of a Dream",
+        question: `"That wasn’t flying it was falling with style"` ,
+        optionA: "Toy Story",
+        optionB: "Aladdin",
+        optionC: "A Bug's Life",
+        optionD: "The Iron Giant",
         correctOption: "optionA"
     },
 
     {
-        question: "Is butter a carb?",
-        optionA: "Confessions of a Teenage Dream Queen",
-        optionB: "Easy A",
-        optionC: "Mean Girls",
-        optionD: "Freaky Friday",
+        question: `"Show me the money!"`,
+        optionA: "A League of Their Own",
+        optionB: "Tin Cup",
+        optionC: "Jerry Maguire",
+        optionD: "As Good as It Gets",
         correctOption: "optionC"
     },
 
     {
-        question: "A liger...it's pretty much my favourite animal. It's like a lion and a tiger mixed - bred for its skills in magic.",
-        optionA: "Napoleon Dynamite",
-        optionB: "Superbad",
-        optionC: "The Big Lebowski",
-        optionD: "The 40-year-old Virgin",
+        question: `"There he goes. One of God's own prototypes. A high-powered mutant of some kind never even considered for mass production. Too weird to live, and too rare to die."`,
+        optionA: "Fear and Loathing in Las Vegas",
+        optionB: "Cry-Baby",
+        optionC: "The Ninth Gate",
+        optionD: "The Basketball Diaries",
         correctOption: "optionA"
     },
 
     {
-        question: "Why is the rum always gone ?",
-        optionA: "Ten",
-        optionB: "PotC: At World's End",
-        optionC: "PotC: Curse of the Black Pearl",
-        optionD: "PotC: Dead Man’s Chest",
+        question: `"It’s only after we’ve lost everything that we’re free to do anything"`,
+        optionA: "Bringing Out the Dead",
+        optionB: "Trainspotting",
+        optionC: "American Beauty",
+        optionD: "Fight Club",
         correctOption: "optionD"
     },
 
     {
-        question: `"I'll treat this lunch like a last supper, feign interest in his nostalgictales, and get out.`,
-        optionA: "Snatch",
-        optionB: "The Business",
-        optionC: "Layer Cake",
-        optionD: "RocknRolla",
+        question: `Do you have that one with that guy who was in that movie that was out last year?`,
+        optionA: "Clerks",
+        optionB: "Mall Rats",
+        optionC: "Dogma",
+        optionD: "Chasing Amy",
         correctOption: "optionA"
     },
 
