@@ -72,15 +72,13 @@ img {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 100;
+    padding: 0;
     overflow: hidden;
-    background-color: blueviolet;
+    background-color: #333;
 }
 
 li {
     float: left;
-    margin: 0 8px;
-    padding-top: 1px;
 }
 
 /* Nav bar with dropdown menu css */
@@ -89,16 +87,14 @@ li a,
 .dropbtn {
     display: inline-block;
     color: white;
-    text-align: right;
+    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover,
 .dropdown:hover .dropbtn {
-    background-color: blueviolet;
-    text-align: right;
-    padding: 20px;
+    background-color: red;
 }
 
 li.dropdown {
@@ -154,7 +150,7 @@ a.button {
 }
 
 #content-wrap {
-    padding-bottom: 2.5rem;
+    padding-bottom: 1rem;
     /* Footer height */
 }
 
@@ -165,15 +161,23 @@ a.button {
     color: black;
     bottom: 0;
     width: 100%;
-    height: 1.5rem;
+    height: 2rem;
     /* Footer height */
 }
 
-#logo{
-    position:absolute;
-    top:1px; 
-    left:20px;
-    width:70px;
-    height:80px;
-    overflow:hidden;
+/* JAVA SCRIPT CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+
+body{
+    font-family: 'Montserrat', serif;
+
 }
