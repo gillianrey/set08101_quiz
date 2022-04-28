@@ -2,8 +2,8 @@
 
 
 html {
-    background: #e6e9e9;
-    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
+    background-image: url(/elements/80s-Background);
+    background-color: coral;
     -webkit-font-smoothing: antialiased;
 }
 
