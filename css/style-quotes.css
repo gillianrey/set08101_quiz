@@ -1,7 +1,8 @@
 /* Brackets CCS getting started template used and modifyed for syle sheet */
 
 html {
-    background-image: url("#");
+    background-image: url("../elements/main-bg.jpg");
+    background-repeat: repeat-y,x;
     background-color: rgb(222, 210, 205);
     -webkit-font-smoothing: antialiased;
 }
@@ -180,7 +181,6 @@ main{
     justify-content: center;
     align-items: center;
     background-color: white;
-    background: url("../elements/80s-Background.jpg")
     background-color : white;
     background-repeat: no-repeat;
     background-size: cover;
