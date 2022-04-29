@@ -94,7 +94,7 @@ li a,
 
 li a:hover,
 .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: rgb(215, 207, 207);;
 }
 
 li.dropdown {
@@ -134,7 +134,7 @@ div.container {
 }
 
 a.button {
-    background-color: #cc0000;
+    background-color: rgb(215, 207, 207);;
     border: 0.01px solid #660000;
     border-radius: 15px;
     color: #fff;
