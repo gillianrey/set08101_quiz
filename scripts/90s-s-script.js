@@ -2,96 +2,98 @@
  //you can change the questions to your own taste or even add more questions..
  const questions = [
     {
-        question: "These are not spirit fingers. These are spirit fingers. And these are gold.",
-        optionA: "Sugar & Spice",
-        optionB: "Fired Up!",
-        optionC: "But I'm a Cheerleader",
-        optionD: "Bring It On",
+        question: "(Everything I Do) I Do It For You by Bryan Adams (1991)",
+        optionA: "What's Eating Gilbert Grape",
+        optionB: "Reality Bites",
+        optionC: "Pretty Woman",
+        optionD: "Robin Hood: Prince of Thieves",
         correctOption: "optionD"
     },
 
     {
-        question: "Wilson!... I’m sorry, Wilson!",
-        optionA: "Rescue Dawn",
-        optionB: "Cast Away",
-        optionC: "Apollo 13",
-        optionD: "The Beach",
+        question: "I Will Always Love You by Whitney Huston (1992)",
+        optionA: "She's All That",
+        optionB: "The Bodyguard",
+        optionC: "Only You",
+        optionD: "Mad Love",
         correctOption: "optionB"
     },
 
     {
-        question: "What we do in life echoes in eternity.",
-        optionA: "Spartacas",
-        optionB: "The Last Legion",
-        optionC: "300",
-        optionD: "Gladiator",
+        question: "Kiss From A Rose by Seal (1995)",
+        optionA: "A Night at the Roxbury",
+        optionB: "GoldenEye",
+        optionC: "Liar Liar",
+        optionD: "Batman Forever",
         correctOption: "optionD"
     },
 
     {
-        question: "Fish are friends, not food.",
-        optionA: "The Reef",
-        optionB: "Help! I'm a fish",
-        optionC: "Finding Nemo",
-        optionD: "Shark Tale",
+        question: "Just A Girl By No Doubt (1995)",
+        optionA: "Girl, Interrupted",
+        optionB: "Jawbreaker",
+        optionC: "Clueless",
+        optionD: "Can't Hardly Wait",
         correctOption: "optionC"
     },
 
     {
-        question: "I don't know how to put this, but I'm kind of a big deal...People know me... I'm very important. Uh, I have many leather-bound books and my apartment smells of rich mahogany",
-        optionA: "Anchorman: The Legend of Ron Burgundy",
-        optionB: "Talladega Nights: The Ballad of Ricky Bobby",
-        optionC: "Step Brothers",
-        optionD: "Blades of Glory",
+        question: "Gangsta's Paradise by Coolio (1995)",
+        optionA: "Dangerous Minds",
+        optionB: "Firday",
+        optionC: "Boyz n the Hood",
+        optionD: "Poretic Justice",
         correctOption: "optionA"
     },
 
     {
-        question: "Bye, [redacted character name]. I love you. Meet me in Montauk.",
-        optionA: "Eternal Sunshine of the spotless Mind",
-        optionB: "Lost In Translation",
-        optionC: "500 Days of Summer",
-        optionD: "Requiem of a Dream",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "Is butter a carb?",
-        optionA: "Confessions of a Teenage Dream Queen",
-        optionB: "Easy A",
-        optionC: "Mean Girls",
-        optionD: "Freaky Friday",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "A liger...it's pretty much my favourite animal. It's like a lion and a tiger mixed - bred for its skills in magic.",
-        optionA: "Napoleon Dynamite",
-        optionB: "Superbad",
-        optionC: "The Big Lebowski",
-        optionD: "The 40-year-old Virgin",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "Why is the rum always gone ?",
-        optionA: "Ten",
-        optionB: "PotC: At World's End",
-        optionC: "PotC: Curse of the Black Pearl",
-        optionD: "PotC: Dead Man’s Chest",
+        question: "My Heart Will Go On by Celine Dion (1997)",
+        optionA: "Indecent Proposal",
+        optionB: "My Girl",
+        optionC: "The Bodyguard",
+        optionD: "Titanic",
         correctOption: "optionD"
     },
 
     {
-        question: `"I'll treat this lunch like a last supper, feign interest in his nostalgictales, and get out.`,
-        optionA: "Snatch",
-        optionB: "The Business",
-        optionC: "Layer Cake",
-        optionD: "RocknRolla",
+        question: "Lovefool by The Cardigans (1996)",
+        optionA: "Notting Hill",
+        optionB: "Romeo + Juliet",
+        optionC: "Never Been Kissed",
+        optionD: "There's Something About Mary",
+        correctOption: "optionB"
+    },
+
+    {
+        question: "I Don’t Want To Miss A Thing by Aerosmith (1998)",
+        optionA: "Contact",
+        optionB: "Apollo 13",
+        optionC: "Deep Impact",
+        optionD: "Armageddon",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "Bittersweet Symphony by The Verve (1999)",
+        optionA: "The Truman Show",
+        optionB: "Girl, Interrupted",
+        optionC: "Cruel Intentions",
+        optionD: "A Time to Kill",
         correctOption: "optionC"
+    },
+
+    {
+        question: "Lust For Life by Iggy Pop (1995)",
+        optionA: "Trainspotting",
+        optionB: "The Game",
+        optionC: "Batman & Robin",
+        optionD: "Lock, Stock and Two Smoking Barrels",
+        correctOption: "optionA"
     },
 
 ]
+
+
 
 
 let shuffledQuestions = [] //empty array to hold shuffled selected questions out of all available questions

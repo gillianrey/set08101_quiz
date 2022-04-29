@@ -3,42 +3,41 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Film Quiz - 90s Quotes </title>
-    <meta name="description" content="Filme Quiz 90s Quotes ">
-    <link type="text/css" rel="stylesheet" href="style-quotes.css">
+    <title>Film Quiz - 80s Songs </title>
+    <meta name="description" content="Filme Quiz 80s Songs ">
+    <link type="text/css" rel="stylesheet" href="css/style-80s.css">
 </head>
+
 
 <body>
     <div id="page-container">
         <div id="content-wrap">
             <!--  Navigation bar and drop down menu contained in <ul></ul> tag  -->
             <ul>
-                <li><img src="../elements/vmask.jpg" id="logo"></li>
-                <li><a href="../index.html">Home</a></li>
+                <li><img src="elements/80s-logo.png" id="logo"></li>
+                <li><a href="index.html">Home</a></li>
                 <li class="dropdown">
-                    <a href="../quotes.html" class="dropbtn">Film Quotes Quizzes</a>
+                    <a href="quotes.html" class="dropbtn">Film Quotes</a>
                     <div class="dropdown-content">
-                        <a href="../quotes/80s-quotes.html">80's Film Quotes Quiz</a>
-                        <a href="../quotes/90s-quotes.html">90's Film Quites Quiz</a>
-                        <a href="../quotes/00s-quotes.html">00's Film Quotes Quiz</a>
+                        <a href="80s-quotes.html">80's Film Quotes Quiz</a>
+                        <a href="90s-quotes.html">90's Film Quotes Quiz</a>
+                        <a href="00s-quotes.html">00's Film Quotes Quiz</a>
                     </div>
                 </li>
                 <li class="dropdown">
-                    <a href="../scenes.html" class="dropbtn">Film Scenes Quizzes</a>
+                    <a href="songs.html" class="dropbtn">Film Songs</a>
                     <div class="dropdown-content">
-                        <a href="../scenes/80s-scenes.html">80's Film Scenes Quiz</a>
-                        <a href="../scenes/90s-scenes.html">90's Film Scenes Quiz</a>
-                        <a href="../scenes/00s-scenes.html">00's Film Scenes Quiz</a>
+                        <a href="80s-songs.html">80's Film Songs Quiz</a>
+                        <a href="90s-songs.html">90's Film Songs Quiz</a>
+                        <a href="00s-songs.html">00's Film Songs Quiz</a>
                     </div>
                 </li>
-                <li><a href="../contact.html">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
             <!--  End of navigation bar with dropdown menu  -->
             <!--  centerally aligned banner  -->
-            <img src="../quotes/elements/">
-            <h1>00's Quotes Quiz</h1>
+            <img src="elements/80s-song-banner.png">
         </div>
-        <!--  centerally aligned footer at the bottome of the webpage  -->
         <body onload="NextQuestion(0)">
             <main>
                 <!-- creating a modal for when quiz ends -->
@@ -46,13 +45,13 @@
         
                     <div class="modal-content-container">
         
-                        <h1>Congratulations, Quiz Completed.</h1>
+                        <h1>Congratulations! You've completed the quiz!!</h1>
         
                         <div class="grade-details">
                             <p>Attempts : 10</p>
                             <p>Wrong Answers : <span id="wrong-answers"></span></p>
                             <p>Right Answers : <span id="right-answers"></span></p>
-                            <p>Grade : <span id="grade-percentage"></span>%</p>
+                            <p>Percentage : <span id="grade-percentage"></span>%</p>
                             <p ><span id="remarks"></span></p>
                         </div>
         
@@ -80,7 +79,7 @@
                        <div class="modal-container" id="option-modal">
         
                             <div class="modal-content-container">
-                                 <h1>Please Pick An Option</h1>
+                                 <h1>Please Pick An Answer!</h1>
         
                                  <div class="modal-button-container">
                                     <button onclick="closeOptionModal()">Continue</button>
@@ -117,13 +116,14 @@
                     </div>
         
                     <div class="next-button-container">
-                        <button onclick="handleNextQuestion()">Next Question</button>
+                        <button onclick="handleNextQuestion()">Next Question!</button>
                     </div>
         
                 </div>
             </main>
-            <script src="00s-script.js"></script>
+            <script src="scripts/80s-s-script.js"></script>
         </body>
+        <!--  centerally aligned footer at the bottome of the webpage  -->
         <footer id=footer>
             <p>
                 Author: Gillian Reynolds

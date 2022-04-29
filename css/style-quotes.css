@@ -1,9 +1,8 @@
 /* Brackets CCS getting started template used and modifyed for syle sheet */
 
-
 html {
-    background-image: url(/elements/80s-Background);
-    background-color: coral;
+    background-image: url("#");
+    background-color: rgb(222, 210, 205);
     -webkit-font-smoothing: antialiased;
 }
 
@@ -180,9 +179,9 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    background: url('../assets/background_image.jpg');
-    background-color : black;
+    background-color: white;
+    background: url("../elements/80s-Background.jpg")
+    background-color : white;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -446,7 +445,7 @@ input[type=radio]:checked ~ .option {
 }
 
 html, body{
-    height: 109%;
+    height: 114%;
 }
 
 
