@@ -21,9 +21,9 @@
 
     {
         question: "Something by the Beatles, Covered by Jim Sturgess (2007)",
-        optionA: "",
-        optionB: "",
-        optionC: "",
+        optionA: "Yellow Submarine",
+        optionB: "Rock n Roll",
+        optionC: "The Boat That Rocked",
         optionD: "Across the Universe",
         correctOption: "optionD"
     },

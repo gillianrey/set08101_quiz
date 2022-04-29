@@ -2,7 +2,7 @@
  //you can change the questions to your own taste or even add more questions..
  const questions = [
     {
-        question: "I’m serious. And don’t call me Shirley!",
+        question: `"I'm serious. And don’t call me Shirley!"`,
         optionA: "The Naked Gun",
         optionB: "The Jerk, Too",
         optionC: "Bacl to The Future",
@@ -11,7 +11,7 @@
     },
 
     {
-        question: "Little pigs, little pigs, let me come in. Not by the hair on your chiny-chin-chin? Then I'll huff, and I'll puff, and I'll blow your house in.",
+        question: `"Little pigs, little pigs, let me come in. Not by the hair on your chiny-chin-chin? Then I'll huff, and I'll puff, and I'll blow your house in."`,
         optionA: "A Nightmare on Elm Street",
         optionB: "The Shining",
         optionC: "The Entity",
@@ -20,7 +20,7 @@
     },
 
     {
-        question: "Hello. My name is Inigo Montoya. You killed my father. Prepare to die!",
+        question: `"Hello. My name is Inigo Montoya. You killed my father. Prepare to die!"`,
         optionA: "Robin Hood: Men in Tights",
         optionB: "Predator",
         optionC: "The Dead Zone",
@@ -29,7 +29,7 @@
     },
 
     {
-        question: "Tell me somethin', my friend. You ever danced with the devil in the pale moonlight?",
+        question: `"Tell me somethin', my friend. You ever danced with the devil in the pale moonlight?"`,
         optionA: "The Silence of The Lambs",
         optionB: "Re-Animator",
         optionC: "Batman",
@@ -38,7 +38,7 @@
     },
 
     {
-        question: "I don't know how to put this, but I'm kind of a big deal...People know me... I'm very important. Uh, I have many leather-bound books and my apartment smells of rich mahoganyDon't you have a dark side? I know, you're probably one of those cheerful people who dot their 'i's' with little hearts.",
+        question: `"Don't you have a dark side? I know, you're probably one of those cheerful people who dot their 'i's' with little hearts."`,
         optionA: "When Harry Met Sally",
         optionB: "An American Werewolf in London",
         optionC: "Heathers",
@@ -47,16 +47,16 @@
     },
 
     {
-        question: "Nobody really thinks it will work, do they? You just described every great success story.",
+        question: `"Nobody really thinks it will work, do they? You just described every great success story."`,
         optionA: "Say Anything",
-        optionB: "",
-        optionC: "",
-        optionD: "",
+        optionB: "Breakfast Club",
+        optionC: "Teen Wolf",
+        optionD: "Ferris Bueller's Day Off",
         correctOption: "optionA"
     },
 
     {
-        question: "Say 'hello' to my little friend!",
+        question: `"Say 'hello' to my little friend!"`,
         optionA: "Once Upon a Time in America",
         optionB: "The Untouchables",
         optionC: "Scarface",
@@ -65,7 +65,7 @@
     },
 
     {
-        question: "I feel the need, the need for speed",
+        question: `"I feel the need, the need for speed"`,
         optionA: "Top Gun",
         optionB: "No Man's Land",
         optionC: "Licence to Drive",
@@ -74,7 +74,7 @@
     },
 
     {
-        question: "Life moves pretty fast. You don’t stop and look around once in a while, you could miss it.",
+        question: `"Life moves pretty fast. You don’t stop and look around once in a while, you could miss it."`,
         optionA: "St Elmo's Fire",
         optionB: "Say Anything",
         optionC: "The Breakfast Club",
@@ -83,7 +83,7 @@
     },
 
     {
-        question: "Do or do not, there is no try. ",
+        question: `"Do or do not, there is no try. "`,
         optionA: "Aliens",
         optionB: "Return of the Jedi",
         optionC: "Empire Strikes Back",

@@ -2,7 +2,7 @@
  //you can change the questions to your own taste or even add more questions..
  const questions = [
     {
-        question: "These are not spirit fingers. These are spirit fingers. And these are gold.",
+        question: `"These are not spirit fingers. These are spirit fingers. And these are gold."`,
         optionA: "Sugar & Spice",
         optionB: "Fired Up!",
         optionC: "But I'm a Cheerleader",
@@ -11,7 +11,7 @@
     },
 
     {
-        question: "Wilson!... I’m sorry, Wilson!",
+        question: `"Wilson!... I’m sorry, Wilson!"`,
         optionA: "Rescue Dawn",
         optionB: "Cast Away",
         optionC: "Apollo 13",
@@ -20,7 +20,7 @@
     },
 
     {
-        question: "What we do in life echoes in eternity.",
+        question: `"What we do in life echoes in eternity."`,
         optionA: "Spartacas",
         optionB: "The Last Legion",
         optionC: "300",
@@ -29,7 +29,7 @@
     },
 
     {
-        question: "Fish are friends, not food.",
+        question: `"Fish are friends, not food."`,
         optionA: "The Reef",
         optionB: "Help! I'm a fish",
         optionC: "Finding Nemo",
@@ -38,7 +38,7 @@
     },
 
     {
-        question: "I don't know how to put this, but I'm kind of a big deal...People know me... I'm very important. Uh, I have many leather-bound books and my apartment smells of rich mahogany",
+        question: `"I don't know how to put this, but I'm kind of a big deal...People know me... I'm very important. Uh, I have many leather-bound books and my apartment smells of rich mahogany"`,
         optionA: "Anchorman: The Legend of Ron Burgundy",
         optionB: "Talladega Nights: The Ballad of Ricky Bobby",
         optionC: "Step Brothers",
@@ -47,7 +47,7 @@
     },
 
     {
-        question: "Bye, [redacted character name]. I love you. Meet me in Montauk.",
+        question: `"Bye, [redacted character name]. I love you. Meet me in Montauk."`,
         optionA: "Eternal Sunshine of the spotless Mind",
         optionB: "Lost In Translation",
         optionC: "500 Days of Summer",
@@ -56,7 +56,7 @@
     },
 
     {
-        question: "Is butter a carb?",
+        question: `"Is butter a carb?"`,
         optionA: "Confessions of a Teenage Dream Queen",
         optionB: "Easy A",
         optionC: "Mean Girls",
@@ -65,7 +65,7 @@
     },
 
     {
-        question: "A liger...it's pretty much my favourite animal. It's like a lion and a tiger mixed - bred for its skills in magic.",
+        question: `"A liger...it's pretty much my favourite animal. It's like a lion and a tiger mixed - bred for its skills in magic."`,
         optionA: "Napoleon Dynamite",
         optionB: "Superbad",
         optionC: "The Big Lebowski",
@@ -74,7 +74,7 @@
     },
 
     {
-        question: "Why is the rum always gone ?",
+        question: `"Why is the rum always gone ?"`,
         optionA: "Ten",
         optionB: "PotC: At World's End",
         optionC: "PotC: Curse of the Black Pearl",

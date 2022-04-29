@@ -74,7 +74,7 @@
     },
 
     {
-        question: `"It’s only after we’ve lost everything that we’re free to do anything"`,
+        question: `"It's only after we’ve lost everything that we're free to do anything"`,
         optionA: "Bringing Out the Dead",
         optionB: "Trainspotting",
         optionC: "American Beauty",
@@ -83,7 +83,7 @@
     },
 
     {
-        question: `Do you have that one with that guy who was in that movie that was out last year?`,
+        question: `"Do you have that one with that guy who was in that movie that was out last year?"`,
         optionA: "Clerks",
         optionB: "Mall Rats",
         optionC: "Dogma",
