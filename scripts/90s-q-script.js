@@ -1,5 +1,5 @@
-//this would be the object shape for storing the questions  
- //you can change the questions to your own taste or even add more questions..
+//https://dev.to/sulaimonolaniran/building-a-simple-quiz-with-html-css-and-javascript-4elp
+//the object shape for storing the questions  
  const questions = [
     {
         question: `"As far back as I can remember, I always wanted to be a gangster...To me being a gangster was better than being president of the United States."`,

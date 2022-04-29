@@ -1,5 +1,5 @@
-//this would be the object shape for storing the questions  
- //you can change the questions to your own taste or even add more questions..
+//https://dev.to/sulaimonolaniran/building-a-simple-quiz-with-html-css-and-javascript-4elp
+//the object shape for storing the questions  
  const questions = [
     {
         question: `"These are not spirit fingers. These are spirit fingers. And these are gold."`,
@@ -11,7 +11,7 @@
     },
 
     {
-        question: `"Wilson!... I’m sorry, Wilson!"`,
+        question: `"Wilson!... I'm sorry, Wilson!"`,
         optionA: "Rescue Dawn",
         optionB: "Cast Away",
         optionC: "Apollo 13",
@@ -98,7 +98,6 @@ let shuffledQuestions = [] //empty array to hold shuffled selected questions out
 
 function handleQuestions() { 
     //function to shuffle and push 10 questions to shuffledQuestions array
-//app would be dealing with 10questions per session
     while (shuffledQuestions.length <= 9) {
         const random = questions[Math.floor(Math.random() * questions.length)]
         if (!shuffledQuestions.includes(random)) {

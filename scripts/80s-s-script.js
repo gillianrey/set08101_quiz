@@ -1,5 +1,5 @@
-//this would be the object shape for storing the questions  
- //you can change the questions to your own taste or even add more questions..
+//https://dev.to/sulaimonolaniran/building-a-simple-quiz-with-html-css-and-javascript-4elp
+//the object shape for storing the questions  
  const questions = [
     {
         question: "When Doves Cry by Prince (1984)",
